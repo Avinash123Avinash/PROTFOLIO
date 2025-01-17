@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+   
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/chat.css"> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("NwpA4jkED6sPJYztT");
+        })();
+    </script>
+    <title>Portfolio</title>
+    <link rel="icon" href="images/profile-photo-Avinash.jpg" style="border-radius: 50%;" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Avinas Kishore</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am that Chamaeleon <span class="chamaeleon"><img src="./images/chamaelon.png"
+                        style="vertical-align: middle; width: 100%; height: 100%;"></span> which changes it's color
+                according to different situation
+                which makes me flexible in working in differnet environment and different tech stacks.</p>
+            <div class="social-media">
+                <a href="https://github.com/Avinash123Avinash?tab=repositories"><i class='bx bxl-github'></i></a>
+               
+                <a href="https://www.linkedin.com/in/avinash-kishore-579965257/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="docs/COLLEGE RESUME.pdf" class="btn" target="_blank">Open Resume</a>
+            <a href="docs/COLLEGE RESUME.pdf" class="btn" download>Download CV</a>
+            
+        </div>
+        <div class="home-img">
+            <img src="images/porfolio3rd.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="images/porfolio2nd (2).jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>if(!Frontend Developer) <br />
+                then Backend Developer</h3>
+            <p>
+                I enjoy tackling real-life projects because they provide practical challenges that stimulate my
+                problem-solving skills.
+                I am constantly on the lookout <img src="./images/search-icon.png" alt="Problem Discovery"
+                    style="vertical-align: middle; width: 30px; height: 22px;"> for new problems to solve. Once I
+                identify a problem, finding a solution <img src="./images/solution-icon.png" alt="Solution Finding"
+                    style="vertical-align: middle; width: 30px; height: 30px;"> becomes a manageable task that typically
+                takes just a few days of focused work.
+
+                I thrive on the process of discovery, analysis, and implementation, and I'm always ready to take on the
+                next challenge.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-dev-to'></i>
+                <h3>Web Development</h3>
+                <p>I have created a variety of projects ranging from simple landing pages to complex full-stack
+                    applications, utilizing diverse tech stacks such as HTML, CSS, JavaScript, React
+                    for frontend; Node.js, Express for backend; MySQL, PostgreSQL,
+                    MongoDB, Firebase for databases; and DevOps tools like Docker.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brain'></i>
+                <h3>Machine Learning</h3>
+                <p>I have created a variety of projects ranging from simple landing pages to complex full-stack
+                    applications, including systems like recommender systems and object detection models, utilizing
+                    variety of techstack like Python, Flask, Streamlit, Pandas, Numpy, YOLO object detection etc.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Problem Solving</h3>
+                <p>I have solved many real-life problems using both web development and machine learning, as using only
+                    one of them is like not utilizing the resources to full extent looks waste to me.
+                    I generally focus on using free services more for small scale applications, but in future will work
+                    on it.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <!-- <img src="./images/weather-app.png" alt="project 1"> -->
+                <video src="./videos/netflix-movie-recommender.mp4" loop muted autoplay></video>
+                <div class="portfolio-layer">
+                    <h4>Netflix Movie recommender system</h4>
+                    <p>A movie recommender system designed on Netflix UI.</p>
+                    <div class="clickable-links">
+                        <a href="https://netflix-clone-2-l2bgng68p-avinash-kishores-projects.vercel.app/" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                        <a href="https://github.com/Avinash123Avinash/NETFLIX-CLONE2.git" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <video src="videos/screen-capture (3).mp4" loop muted autoplay></video>
+                <div class="portfolio-layer">
+                    <h4>Invoice Generator</h4>
+                    <p>Generates Invoice of any particula Items.</p>
+                    <div class="clickable-links">
+                        <a href="https://invoice-generator-rho-beige.vercel.app/" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                        <a href="https://github.com/Avinash123Avinash/INVOICE-GENERATOR" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <video src="./videos/dummy-data.mp4" loop muted autoplay></video>
+                <div class="portfolio-layer">
+                    <h4>Dummy data generator</h4>
+                    <p>Generates dummy data for your Api testing purposes.</p>
+                    <div class="clickable-links">
+                        <a href="https://dummydatagenerator.onrender.com/" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                        <a href="https://github.com/Avinash123Avinash/Dummy-data-generator" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section design --> 
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form method="POST" id="form">
+            <input type="hidden" name="access_key" value="ff5e277e-f2c8-41b2-b757-070b3f2be378">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="fullName" name="name" required />
+                <input type="email" placeholder="Email Address" id="email_id" name="email" required />
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="phone" name="phone" required />
+                <input type="text" placeholder="Email subject" id="subject" name="subject" required />
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button type="submit" class="btn" id="submit-btn">Send Message</button>
+            <div id="result"></div>
+        </form>
+    </section>
+    <!--  footer design
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Avinash | All rights reserved</p>
+        </div>
+        <div class="footer-Icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer> -->
+   <!-- Bubble button -->
+   <div class="bubble" onclick="openDialog()">💬</div>
+
+   <!-- Dialog box -->
+   <div id="dialog" class="dialog">
+       <span class="close-btn" onclick="closeDialog()">X</span>
+       <iframe src="./chat.html" frameborder="0"></iframe>
+   </div>
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Avinash | All rights reserved</p>
+        </div>
+        <div class="footer-Icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+        </footer>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- custom js -->
+     <script src="./js/chatbot.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="js/validate.js"></script>
+
+</body>
+
+</html>

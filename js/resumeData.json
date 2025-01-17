@@ -1,0 +1,102 @@
+{
+    "name": "Avinash kishore",
+    "contact": {
+      "phone": "+91-7479552035",
+      "email_primary": "avinashk.ug22.ece@nitp.ac.in",
+      "email_secondary": "avinashaditya2000@gmail.com",
+      "github": "GitHub Profile",
+      "linkedin": "LinkedIn Profile"
+    },
+    "education": [
+      {
+        "institution": "NIT PATNA",
+        "degree": "B.Tech in Electronic and communication Engineerin",
+        "cgpa": "8.93 (upto 5th semester)"
+      },
+      {
+        "institution": "College of Commerce, Arts and Science, Patna",
+        "qualification": "I.Sc",
+        "board": "Bihar Secondary Examination Board, Patna",
+        "percentage": "84%"
+      },
+      {
+        "institution": "Krishna Public School, Patna",
+        "qualification": "Matriculation",
+        "board": "Central Board of Secondary Education, Patna",
+        "percentage": "90%"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Bharat Intern",
+        "role": "Frontend Web Developer",
+        "type": "Remote",
+        "responsibilities": [
+          "Developed a sleek, Netflix-inspired user interface with a modern, dark-themed color palette, enhancing user experience and visual appeal.",
+          "Implemented responsive design and intuitive navigation features, ensuring seamless user interaction across various devices.",
+          "Utilized tech stacks: HTML, CSS, JavaScript, ReactJs, Tailwind."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Image Caption Generator",
+        "description": "Developed a neural network model to generate captions for images using CNN for images and LSTM for text.",
+        "details": [
+          "Used the Flickr8k dataset consisting of 8k images with 5 captions per image and the Flickr30k dataset.",
+          "Implemented VGG16 for image feature extraction and CNN-LSTM network to predict captions based on extracted image features and previous words.",
+          "Achieved a BLEU-1 score of 0.544 and a BLEU-2 score of 0.319 on the Flickr8k dataset."
+        ],
+        "tech_stacks": ["Python", "TensorFlow", "Keras", "Numpy", "NLTK", "Matplotlib"],
+        "link": "Github"
+      },
+      {
+        "name": "CodeSync",
+        "description": "Designed a real-time code editor, where we can practice coding with friends.",
+        "details": [
+          "Used socket.io and codemirror module to simulate the code editor.",
+          "Deployed on Render platform."
+        ],
+        "tech_stacks": ["JavaScript", "ReactJs", "NodeJs", "Express"],
+        "links": ["Github", "Website"]
+      }
+    ],
+    "technical_skills_and_interests": {
+      "languages": ["C", "C++", "HTML", "JavaScript", "Python"],
+      "frameworks": ["BootStrap", "ReactJS"],
+      "developer_tools": ["Git", "GitHub"],
+      "cloud_and_databases": ["MySQL", "MongoDB"],
+      "coursework": [
+        "DBMS",
+        "Computer Networks",
+        "Software Engineering",
+        "OOPs concepts",
+        "Data Structures and Algorithms",
+        "Machine Learning"
+      ],
+      "hobbies": ["Karate", "Cricket", "Reading Research papers"]
+    },
+    "positions_of_responsibility": [
+      {
+        "role": "Volunteer",
+        "organization": "NSS Patna"
+      },
+      {
+        "role": "Technical Team Member",
+        "organization": "IEE Club NIT Patna"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Byteverse Hackathon Finalist",
+        "description": "Finalist in the Hackathon",
+        "date": "April 2024"
+      },
+      {
+        "title":"Leetcode Byweekely Contest",
+        "description":"Global Rank : 1242/31946"
+      }
+     
+    ]
+  }
+  
